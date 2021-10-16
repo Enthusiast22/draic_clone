@@ -11,7 +11,7 @@
 // export default Home
 import React from 'react';
 import "./Home.css"
-import fish from ".3dfish.png"
+import fish from "../imgs/bg_dark.jpg"
 function Home(){
     return(
 
