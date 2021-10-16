@@ -1,14 +1,4 @@
-// import React from 'react'
 
-// const Home = () => {
-//     return (
-//         <div>
-//             <h1 align="center">This is the HOME PAGE!!!</h1>
-//         </div>
-//     )
-// }
-
-// export default Home
 import React from 'react';
 import "./Home.css"
 import person from "../imgs/person.png"
@@ -73,10 +63,10 @@ function Home(){
               <h5 className="about_content">
 
 
-VISION
+VISION  :   
 To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.
 
-MISSION
+MISSION  :                                                                                                                                                                                                                                                                                                           
 DRAIC
 Team DRAIC seeks to inspire the next generation of bright minds, to cultivate an appreciation for the present technology and develop a cognitive thinking towards the solutions to present scenario by engaging in competition and building innovative projects.
 
@@ -118,6 +108,9 @@ Team DRAIC seeks to inspire the next generation of bright minds, to cultivate an
      <section className="study_material">
       <h2><span>Team</span></h2>
       <img className="people" src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
       <img className="people"src={person} alt="a" width="15%" height="20%"/>
       <img className="people"src={person} alt="a" width="15%" height="20%"/>
       <img className="people"src={person} alt="a" width="15%" height="20%"/>
