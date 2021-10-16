@@ -11,7 +11,13 @@
 // export default Home
 import React from 'react';
 import "./Home.css"
-import fish from "../imgs/bg.png"
+import person from "../imgs/person.png"
+import fish from "../imgs/bg_dark.jpg"
+import fish from "../imgs/bg_dark.jpg"
+import fish from "../imgs/bg_dark.jpg"
+import fish from "../imgs/bg_dark.jpg"
+import fish from "../imgs/bg_dark.jpg"
+
 
 function Home(){
     return(
@@ -124,32 +130,33 @@ function Home(){
               </div>
               </div>
       </section> */}
-      <section className="study_material">
+     <section className="study_material">
       <h2><span>Team</span></h2>
-      <img className="people" src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
+      <img className="people" src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
       
   </section>
+      
       
   </main>
   <section className="lastsecond">
   <div classname="contact">
           <p>Follow Us</p>
-          <a href="#">
+          <a target="_blank" href="https://in.linkedin.com/company/d-y-patil-robotics-ai-club" >
           <img className="social" src={fish} />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://www.instagram.com/draicdypcoe/">
+              <img className="social" src={instalogo} /></a>
+          <a target="_blank" href="https://www.facebook.com/draicdypcoe/">
               <img className="social" src={fish} /></a>
-          <a href="#">
-              <img className="social" src={fish} /></a>
-          <a href="#">
+          <a target="_blank" href="#">
               <img className="social" src={fish} /></a>
           
 
@@ -163,7 +170,9 @@ function Home(){
       <a href="#">Contact Us</a>
       <a href="#">Terms of Use</a>
       <a href="#">Privacy Policy</a>
-      <a href="#" className="flex-align-left">&copy; 2020 | DRAIC</a>
+      <a href="#" className="flex-align-left">&copy; 2020 D. Y. Patil Robotics & AI Club
+
+All rights reserved.C</a>
       
   </footer>
   
