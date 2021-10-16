@@ -11,6 +11,11 @@
 // export default Home
 import React from 'react';
 import "./Home.css"
+import person from "../imgs/person.png"
+import lin from "../imgs/linkedin.webp"
+import insta from "../imgs/insta.png"
+import fb from "../imgs/fb.png"
+import gmail from "../imgs/gmail.png"
 import fish from "../imgs/bg_dark.jpg"
 function Home(){
     return(
@@ -59,37 +64,24 @@ function Home(){
           </div>
       </section> */}
       <section className="our_founder">
-          <h2><span>Our Founder</span></h2>
+          <h2><span>About Us</span></h2>
 
-          {/* <img className="profile_img" src="assets/social/social-aman.jpeg" alt="This is Aman Dhattarwal"/>
-          <h3 className="profile_name">Aman Dhattarwal</h3>
-          <div className="sm-handle">
-              <a className="yt_handle" href="http://www.youtube.com/amandhattarwal" target="_blank"
-                  rel="noopener noreferrer"><i className="fab fa-youtube fa-lg"></i>YouTube</a>
-              <a className="linkdn_handle" href="http://www.linkedin.com/in/dhattarwalaman" target="_blank"
-                  rel="noopener noreferrer"><i className="fab fa-linkedin fa-lg"></i>LinkedIn</a>
-              <a className="insta_handle" href="http://www.instagram.com/dhattarwalaman" target="_blank"
-                  rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i>Instagram</a>
-          </div> */}
+          
 
           <div className="about_us">
-              <h4 className="about_title">Young TEDx speaker and #1 Online JEE Educator | Founder of 5 YouTube Channels
-                  with
-                  2.5 million young
-                  hustlers. </h4>
-              <h5 className="about_content">I help students across India find their right career path. I have been a guest
-                  speaker at 22 Colleges
-                  including Top IITs, BITS Pilani, IIIT's, NIT's, SRCC, Jadavpur University etc. I am the #1 Educator
-                  of
-                  JEE on India's biggest online platform
-                  and I believe that everyone has the right to quality education and with the help of my social media
-                  platforms, I have helped millions of students find their path to success in the last 5 years. In the
-                  next few decades, India will rise
-                  as the leader of the world with the maximum young workforce, but for this, we need some good pilots
-                  who
-                  can take us through this. I help these young hustlers find their true potential so that they can fly
-                  us
-                  to victory.</h5>
+              <h4 className="about_title">D. Y. Patil Robotics & AI Club is a group of highly dedicated individuals, from all engineering disciplines, working passionately in the field of Robotics & AI to take the college (DYPCOE, Pune) to new heights in this field. The Club focuses on the development of students through working on various robotic projects and also participating in National as well as International level Competitions. </h4>
+              <h5 className="about_content">
+
+
+VISION
+To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.
+
+MISSION
+DRAIC
+Team DRAIC seeks to inspire the next generation of bright minds, to cultivate an appreciation for the present technology and develop a cognitive thinking towards the solutions to present scenario by engaging in competition and building innovative projects.
+
+ 
+</h5>
           </div>
           
       </section>
@@ -123,33 +115,34 @@ function Home(){
               </div>
               </div>
       </section> */}
-      <section className="study_material">
+     <section className="study_material">
       <h2><span>Team</span></h2>
-      <img className="people" src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
-      <img className="people"src={fish} alt="a" width="15%" height="20%"/>
+      <img className="people" src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
+      <img className="people"src={person} alt="a" width="15%" height="20%"/>
       
   </section>
+      
       
   </main>
   <section className="lastsecond">
   <div classname="contact">
           <p>Follow Us</p>
-          <a href="#">
-          <img className="social" src={fish} />
+          <a target="_blank" href="https://in.linkedin.com/company/d-y-patil-robotics-ai-club" >
+          <img className="social" src={lin} />
           </a>
-          <a href="#">
-              <img className="social" src={fish} /></a>
-          <a href="#">
-              <img className="social" src={fish} /></a>
-          <a href="#">
-              <img className="social" src={fish} /></a>
+          <a target="_blank" href="https://www.instagram.com/draicdypcoe/">
+              <img className="social" src={insta} /></a>
+          <a target="_blank" href="https://www.facebook.com/draicdypcoe/">
+              <img className="social" src={fb} /></a>
+          <a target="_blank" href="#">
+              <img className="social" src={gmail} /></a>
           
 
       </div>
@@ -162,7 +155,9 @@ function Home(){
       <a href="#">Contact Us</a>
       <a href="#">Terms of Use</a>
       <a href="#">Privacy Policy</a>
-      <a href="#" className="flex-align-left">&copy; 2020 | DRAIC</a>
+      <a href="#" className="flex-align-left">&copy; 2020 D. Y. Patil Robotics & AI Club
+
+All rights reserved.C</a>
       
   </footer>
   
