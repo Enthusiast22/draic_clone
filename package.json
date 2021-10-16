@@ -1,6 +1,6 @@
 {
   "homepage": "https://Princeton21.github.io/draic_clone",
-  "name": "my-app",
+  "name": "draic_clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
